@@ -9,7 +9,8 @@ curl \
   -d "{\"name\":\"$REPO_NAME\", \"private\":true, \"auto_init\":true}" 
 
 git clone git@github.com:$GIT_USER/$REPO_NAME
-echo "repo creation by create_remote_repo" >> ./$REPO_NAME/README.md
-git add ./$REPO_NAME/README.md
+cd $REPO_NAME
+echo "repo creation by create_remote_repo" >> ./README.md
+git add .
 git commit -m "Initial Commit, automated"
 git push 
