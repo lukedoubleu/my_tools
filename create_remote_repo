@@ -10,6 +10,6 @@ curl \
 
 git clone git@github.com:$GIT_USER/$REPO_NAME
 echo "repo creation by create_remote_repo" >> ./README.MD
-git add ./README.MD
+git add ./$REPO_NAME/README.MD
 git commit -m "Initial Commit, automated"
 git push 
