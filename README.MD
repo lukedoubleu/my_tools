@@ -7,3 +7,5 @@
      export GIT_TOKEN=YOUR_PAT
      export GIT_USER=YOUR_GITHUB_USERNAME
 #### In order to prevent creation of the new git repo in this git's directory on you local drive (i.e. running ./create_remote_repo TESTING will create the git repo TESTIng in this my_tools local git directory, probably not what you want). Ergo, add this (my_tools) direcoty to your PATH variable, so you can run <b>create_remote_repo</b> anywhere on your local directory.
+
+E.g. Once you added to PATH, you can run <b>create_remote_repo TESTING </b> in ~/here/orthere/anywhere to create ~/here/orthere/anywhere/TESTING/ local repo.
