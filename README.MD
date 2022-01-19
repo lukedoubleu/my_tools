@@ -10,5 +10,4 @@
 #### In order to prevent creation of the new git repo in this [my_tools] git's directory on you local machine (i.e. running `./create_remote_repo REPONAME` will create the git repo REPONAME in this `my_tools` local git directory, probably not what you want). Ergo, add this (my_tools) directory to your PATH variable, so you can run <b>create_remote_repo</b> in any directory on your local machine.
 
 E.g. Once you added to PATH, you can run <b>create_remote_repo REPONAME </b> in ~/here/orthere/anywhere to create local repo ~/here/orthere/anywhere/REPONAME/
-
       ./delete_remote_repo REPONAME (or, `just delete_remote_repo REPONAME` if you added this git to your PATH variable) will delete remote REPONAME
